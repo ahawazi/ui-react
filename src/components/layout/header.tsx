@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 export default function Header() {
     return <>
-        <header className="bg-green-400 p-8">
+        <header className="bg-green-400 p-8 hidden sm:block">
             <div className="flex justify-end text-white items-center py-4">
                 <div className="flex space-x-1 space-x-reverse items-center text-xs px-2">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
