@@ -1,5 +1,4 @@
 <div className="border-gray-400 border-2 rounded-xl h-fit m-11 p-2">
-  <div className="">
     <div>
       <img
         src="https://via.placeholder.com/150"
@@ -40,5 +39,4 @@
         </div>
       </div>
     </div>
-  </div>
 </div>
