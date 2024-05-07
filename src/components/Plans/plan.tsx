@@ -5,7 +5,7 @@ export default function Plan() {
         <img
           src="https://via.placeholder.com/300"
           alt="Plan"
-          className="rounded-t-lg w-full h-32 object-cover"
+          className="rounded-t-lg w-full h-64 object-cover"
         />
         <div className="p-2 space-y-2">
           <div className="space-y-2">
