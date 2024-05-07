@@ -9,15 +9,12 @@ import ListItem from "@/components/elements/list/listItem";
 import Help from "@/components/helps/help";
 import Plan from "@/components/Plans/plan";
 import Product from "@/components/Products/product";
+import Sample from "@/components/sample/sample";
 
 export default function Home() {
   return (
     <main className="min-h-screen justify-center">
-      <div className="flex">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
-          <Product />
-        </div>
-      </div>
+    
     </main>
   );
 }
