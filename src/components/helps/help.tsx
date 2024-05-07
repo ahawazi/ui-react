@@ -31,9 +31,9 @@ export default function Help() {
               <p>مبلغ25,000تومان</p>
             </div>
 
-            <button className="text-green-500 border-green-500 bg-white m-2 rounded-full w-24 mt-3">
-              <a href="#">بیشتر</a>
-            </button>
+            <a className="text-green-500 border-green-500 bg-white m-2 rounded-full w-24 mt-3">
+              بیشتر
+            </a>
           </div>
         </div>
       </div>
