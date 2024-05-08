@@ -10,11 +10,19 @@ import Help from "@/components/helps/help";
 import Plan from "@/components/Plans/plan";
 import Product from "@/components/Products/product";
 import Sample from "@/components/sample/sample";
+import Play from "@/components/svgs/play";
+import Download from "@/components/svgs/download";
+import Taimer from "@/components/svgs/taimer";
+import Next from "@/components/svgs/next";
+import Back from "@/components/svgs/back";
+import Location from "@/components/svgs/location";
 
 export default function Home() {
   return (
     <main className="min-h-screen justify-center">
-    
+
+
+
     </main>
   );
 }
