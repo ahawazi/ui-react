@@ -1,7 +1,7 @@
 export default function Introduction() {
   return (
     <>
-      <div className="flex items-center space-x-2 space-x-reverse p-11">
+      <div className="flex items-center space-x-2 space-x-reverse">
         <img
           src="https://via.placeholder.com/40"
           alt="Haji"
