@@ -16,12 +16,28 @@ import Taimer from "@/components/svgs/taimer";
 import Next from "@/components/svgs/next";
 import Back from "@/components/svgs/back";
 import Location from "@/components/svgs/location";
+import Price from "@/components/price/price";
+import Ticket from "@/components/svgs/ticket";
+import Search from "@/components/svgs/search";
+import SityDrop from "@/components/boxs/sity-drop";
+import ProductDrop from "@/components/boxs/prodouct-box";
+import SearchBox from "@/components/boxs/search-bos";
+import Setting from "@/components/svgs/setting";
+import Shopping from "@/components/svgs/shopping";
+import Filter from "@/components/filter/filter";
+import Phone from "@/components/svgs/phone";
+import Post from "@/components/post/post";
+import PlanCode from "@/components/Plans/plan-code";
+import Quotation from "@/components/quotation/quotation";
+import Pagination from "@/components/pagination/pagination";
+import Payments from "@/components/payments/payment";
+import Payment from "@/components/payments/payment";
 
 export default function Home() {
   return (
     <main className="min-h-screen justify-center">
 
-
+      
 
     </main>
   );
