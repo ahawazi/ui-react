@@ -19,6 +19,10 @@ import Location from "@/components/svgs/location";
 import EhdayeKomakNaghdiBanner from "@/components/banners/ehdaye-komamk-naghdi-banner";
 import Post from "@/components/post/post";
 import Quotation from "@/components/quotation/quotation";
+import Sharer from "@/components/sharers/sharer";
+import PlanBanner from "@/components/plans/plan-banner";
+import PlanCode from "@/components/plans/plan-code";
+import PlansVideo from "@/components/plans/plans-video";
 
 export default function Home() {
     return (
@@ -102,9 +106,7 @@ export default function Home() {
                                 نذر کالا
                             </span>
                         </BoxHeader>
-                        <div className="bg-neutral-400 h-48 w-full">
-
-                        </div>
+                        <Sharer/>
                     </div>
                 </div>
             </section>
