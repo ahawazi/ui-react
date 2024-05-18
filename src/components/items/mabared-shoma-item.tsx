@@ -15,10 +15,10 @@ export default function MavaredShomaItem() {
                 </svg>
             </div>
             <div className="justify-center">
-                <p className="text-center">
+                <p className="text-center font-medium">
                     ۳۸۰
                 </p>
-                <p className="text-center">
+                <p className="text-center font-light">
                     موارد شما
                 </p>
             </div>

@@ -1,44 +1,45 @@
-import Pagination from "../pagination/pagination";
+import NumberPagination from "../pagination/numberPagination";
+import Pagination from "@/components/pagination/pagination";
 
 export default function Quotation() {
-  return (
-    <>
-      <div>
-            <p className="text-purple-700 font-bold p-6">
-            بزرگان راجب موئسسه چه می گویند؟
-            </p>
+    return (
+        <>
+            <div className="space-y-6">
+                <span className="text-purple-700 font-bold text-lg px-10">
+                    بزرگان راجب موئسسه چه می گویند؟
+                </span>
 
-            <div className="">
-                <div className="flex">
+                <div className="flex space-x-4 space-x-reverse">
                     <img
-                    src="https://via.placeholder.com/100"
-                    alt="Plan"
-                    className="rounded-full object-cover"
+                        src="https://via.placeholder.com/100"
+                        alt="Plan"
+                        className="rounded-full object-cover size-20"
                     />
-                    <p className="text-purple-800 font-semibold">
-                    آیت الله جوادی عاملی
-                    </p>
+                    <div className="space-y-2">
+                        <span className="text-purple-800 text-base font-bold">
+                            آیت الله جوادی عاملی
+                        </span>
+                        <p
+                            className="text-sm font-light line-clamp-2 text-justify"
+                        >
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                            aspernatur? Porro laboriosam nobis est, quibusdam quod error ipsum
+                            omnis, facilis sequi libero deserunt rerum rem repellendus
+                            doloribus officia. Mollitia, dolorum! Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Expedita earum quos, itaque harum
+                            consequatur cupiditate quam esse? Consequatur, beatae repellendus
+                            quos impedit itaque nihil distinctio, commodi eligendi praesentium
+                            animi accusamus.
+                        </p>
+                    </div>
+
                 </div>
 
-                <div className="justify-items-center grid">  
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
-                    aspernatur? Porro laboriosam nobis est, quibusdam quod error ipsum
-                    omnis, facilis sequi libero deserunt rerum rem repellendus
-                    doloribus officia. Mollitia, dolorum! Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Expedita earum quos, itaque harum
-                    consequatur cupiditate quam esse? Consequatur, beatae repellendus
-                    quos impedit itaque nihil distinctio, commodi eligendi praesentium
-                    animi accusamus.
-                    </p>
 
-                    <div className="p-4">
-                        <Pagination />
-                    </div>
+                <div className="flex justify-center">
+                    <Pagination/>
                 </div>
             </div>
-            
-      </div>
-    </>
-  );
+        </>
+    );
 }

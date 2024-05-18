@@ -1,13 +1,15 @@
 export default function BoxHeader(
     {
-        children
+        children,
+        bgColors = "bg-indigo-400/50",
     }:
         {
-            children: React.ReactNode
+            children: React.ReactNode,
+            bgColors?: string,
         }
 ) {
     return (
-        <div className="bg-indigo-400/50 rounded-t-3xl flex justify-center items-center py-2">
+        <div className={`${bgColors} rounded-t-3xl flex justify-center items-center py-2`}>
             {children}
         </div>
     );

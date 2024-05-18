@@ -1,4 +1,4 @@
-import Date from "../svgs/date";
+import CalendarDays from "../svgs/calendarDays";
 
 export default function Payment() {
   return (
@@ -16,7 +16,7 @@ export default function Payment() {
 
         <div className="flex items-center space-x-2 space-x-reverse">
           <p className="font-bold text-purple-600">1403/6/25</p>
-          <Date />
+          <CalendarDays />
         </div>
       </div>
     </>
