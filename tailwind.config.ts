@@ -45,6 +45,16 @@ const config: Config = {
         'chestnut-rose': '#d25963',
         keppel: '#3baca4',
         java: '#20e0a4',
+        'desert-storm': '#ededea',
+        'mulled-wine': '#574869',
+        'turquoise-bluue': '#5febde',  // note: this overwrites the previous 'turquoise-blue'
+        'tower-gray': '#aab6b9',
+        sycamore: '#999846',
+        juniper: '#638586',
+        mandy: '#e85355',
+        'ship-covee': '#6a88b8',  // note: this overwrites the previous 'ship-cove'
+        'fountain-blue': '#4ab7ac',
+        turquoise: '#34dca4',
     }
   },
   plugins: [],
