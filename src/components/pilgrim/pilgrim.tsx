@@ -1,9 +1,20 @@
 export default function Pilgrim() {
-  return (
-    <>
-      <div className="flex rounded-lg bg-blue-500 size-20">
-        <p className="text-white text-center">زائرین کربلا</p>
-      </div>
-    </>
-  );
+    return (
+        <>
+            <div style={
+                {
+                    backgroundImage: "url(https://source.unsplash.com/random)",
+                }
+            }
+                 className="rounded-lg overflow-hidden"
+            >
+                <div
+                    className="size-32 flex flex-col justify-end bg-green-500/20"
+
+                >
+                    <p className="text-white text-center text-lg p-1 truncate">زائرین کربلا</p>
+                </div>
+            </div>
+        </>
+    );
 }
