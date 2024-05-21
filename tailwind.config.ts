@@ -55,6 +55,13 @@ const config: Config = {
         'ship-covee': '#6a88b8',  // note: this overwrites the previous 'ship-cove'
         'fountain-blue': '#4ab7ac',
         turquoise: '#34dca4',
+        'westar': '#dfddd5',
+        'port-gore': '#302157',
+        makara: '#8b786a',
+        amethyst: '#8762cd',
+        'night-rider': '#1d120e',
+        'chalet-green': '#5a7541',
+        'scarpa-flow': '#5a5061',
     }
   },
   plugins: [],
