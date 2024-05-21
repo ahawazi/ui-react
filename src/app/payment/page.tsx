@@ -12,7 +12,7 @@ export default function PaymentPage() {
     return (
         <>
             <Page className="min-h-screen">
-                <h1 className="text-indigo-700 font-bold text-lg text-center">
+                <h1 className="text-secondary font-bold text-lg text-center">
                     روش های پرداخت
                 </h1>
                 <div className="flex justify-center space-x-2 space-x-reverse my-8 items-center">

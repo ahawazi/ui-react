@@ -1,7 +1,7 @@
 export default function BoxHeader(
     {
         children,
-        bgColors = "bg-indigo-400/50",
+        bgColors = "bg-surface",
     }:
         {
             children: React.ReactNode,
