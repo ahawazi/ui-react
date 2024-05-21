@@ -60,7 +60,7 @@ export default function HelpContentPage() {
                 <div className="w-1/5">
                     <Box className="">
                         <BoxHeader>
-                    <span className="text-indigo-700">
+                    <span className="text-secondary">
                         مطالب مربوط
                     </span>
                         </BoxHeader>

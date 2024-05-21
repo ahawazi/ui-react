@@ -64,7 +64,7 @@ export default function Home() {
                         <BoxHeader
                             bgColors="bg-indigo-400/50"
                         >
-                            <span className="text-lg font-bold text-indigo-700">
+                            <span className="text-lg font-bold text-secondary">
                                 اخرین اخبار
                             </span>
                         </BoxHeader>
@@ -83,15 +83,15 @@ export default function Home() {
                         </div>
                         <div className="flex space-x-2 space-x-reverse items-center">
                             <hr
-                                className="grow bg-indigo-700/50 h-0.5"
+                                className="grow bg-secondary/50 h-0.5"
                             />
                             <button
-                                className="border border-indigo-700 text-indigo-700 px-4 py-0.5 rounded-full text-sm"
+                                className="border border-secondary text-secondary px-4 py-0.5 rounded-full text-sm"
                             >
                                 همه اخبار
                             </button>
                             <hr
-                                className="grow bg-indigo-700/50 h-0.5"
+                                className="grow bg-secondary/50 h-0.5"
                             />
                         </div>
                     </div>

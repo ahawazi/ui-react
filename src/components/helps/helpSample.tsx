@@ -11,7 +11,7 @@ export default function HelpSample() {
             </div>
             <div className="bg-purple-100 rounded-b-2xl">
                 <div className="pt-4 px-4 pr-16">
-                    <span className="font-bold text-base text-indigo-700">
+                    <span className="font-bold text-base text-secondary">
                         آقای رضا اسد الهی
                     </span>
                     <p className="text-sm font-light line-clamp-2">
