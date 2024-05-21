@@ -47,12 +47,12 @@ const config: Config = {
         java: '#20e0a4',
         'desert-storm': '#ededea',
         'mulled-wine': '#574869',
-        'turquoise-bluue': '#5febde',  // note: this overwrites the previous 'turquoise-blue'
+        'turquoise-bluue': '#5febde',
         'tower-gray': '#aab6b9',
         sycamore: '#999846',
         juniper: '#638586',
         mandy: '#e85355',
-        'ship-covee': '#6a88b8',  // note: this overwrites the previous 'ship-cove'
+        'ship-covee': '#6a88b8',
         'fountain-blue': '#4ab7ac',
         turquoise: '#34dca4',
         'westar': '#dfddd5',
@@ -62,6 +62,15 @@ const config: Config = {
         'night-rider': '#1d120e',
         'chalet-green': '#5a7541',
         'scarpa-flow': '#5a5061',
+        white: '#f8fafc',
+        deluge: '#7354a7',
+        'aqua-haze': '#f0f6f7',
+        'cold-purple': '#a995d9',
+        roti: '#cdae50',
+        'blizzard-blue': '#92e9ee',
+        deco: '#dede94',
+        'gray-suit': '#c7c2d2',
+        hoki: '#6681a7'
     }
   },
   plugins: [],
