@@ -1,7 +1,7 @@
 export default function Header() {
     return <>
-        <header className="hidden sm:block relative">
-            <div className="bg-black/50 w-full h-36">
+        <header className="hidden sm:block relative h-48 mb-20">
+            <div className="bg-black/50 w-full h-1/2 absolute">
             </div>
             <div className="w-full p-4">
                 <div className="flex justify-end text-white items-center py-4 px-4">

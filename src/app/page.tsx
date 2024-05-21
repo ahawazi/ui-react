@@ -23,17 +23,14 @@ import Sharer from "@/components/sharers/sharer";
 import PlanBanner from "@/components/plans/plan-banner";
 import PlanCode from "@/components/plans/plan-code";
 import PlansVideo from "@/components/plans/plans-video";
+import Page from "@/components/layout/page";
 
 export default function Home() {
     return (
         <main className="">
-            <section
-                className="min-h-screen bg-cover"
-                style={
-                    {
-                        backgroundImage: "url('/images/BG.png')",
-                    }
-                }>
+            <Page
+                className="min-h-screen"
+            >
                 <div className="container mx-auto py-10">
                     <div
                         className="grid grid-cols-1 md:grid-cols-5 gap-4 divide-x divide-indigo-400 divide-x-reverse items-center">
@@ -109,7 +106,7 @@ export default function Home() {
                         <Sharer/>
                     </div>
                 </div>
-            </section>
+            </Page>
 
 
             <div className="w-full h-48 bg-neutral-400">
@@ -117,7 +114,7 @@ export default function Home() {
             </div>
 
             <section
-                className="min-h-screen bg-cover bg-indigo-100"
+                className="min-h-screen bg-cover bg-indigo-100w"
                 style={
                     {
                         backgroundImage: "url('/images/BG.png')",
