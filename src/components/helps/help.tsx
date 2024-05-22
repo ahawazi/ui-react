@@ -1,41 +1,39 @@
 export default function Help() {
   return (
     <>
-      <div className="">
-        <div className="bg-primary rounded-t-lg ">
-          <p className="text-white font-bold mr-2">آخرین کمک ها</p>
+      <div className="w-full">
+        <div className="bg-teal-300 rounded-t-xl p-3">
+          <h2 className="font-bold text-white">آخرین کمک ها</h2>
         </div>
-        <div className="flex gap-7">
-          <div className="bg-white text-primary font-bold">
-            <div className="mt-2">
-              <p>کاربر علی مرادی</p>
-              <p>کاربر علی مرادی</p>
-            </div>
-          </div>
-          <div className="font-bold bg-green-100">
-            <div className="mt-2">
-              <p>مبلغ25,000تومان</p>
-              <p>مبلغ25,000تومان</p>
-            </div>
-          </div>
 
-          <div className="bg-white text-primary font-bold">
-            <div className="mt-2">
-              <p>کاربر علی مرادی</p>
-              <p>کاربر علی مرادی</p>
-            </div>
-          </div>
-          <div className="bg-green-100">
-            <div className="font-bold mt-2">
-              <p>مبلغ25,000تومان</p>
-              <p>مبلغ25,000تومان</p>
-            </div>
+        <table className="w-full">
+          <tbody>
+            <tr>
+              <td className="p-2 text-teal-300 bg-white font-semibold">علی مرادی</td>
+              <td className="p-2 font-semibold text-black bg-teal-50">25.000تومان</td>
+              <td className="p-2 text-teal-300 bg-white font-semibold">علی مرادی</td>
+              <td className="p-2 font-semibold text-black bg-teal-50">25.000تومان</td>
+            </tr>
 
-            <a className="text-primary border-primary bg-white m-2 rounded-full w-24 mt-3">
-              بیشتر
-            </a>
-          </div>
-        </div>
+            <tr>
+              <td className="p-2 text-teal-300 bg-white font-semibold">علی مرادی</td>
+              <td className="p-2 font-semibold text-black bg-teal-50">25.000تومان</td>
+              <td className="p-2 text-teal-300 bg-white font-semibold">علی مرادی</td>
+              <td className="p-2 font-semibold text-black bg-teal-50">25.000تومان</td>
+            </tr>
+
+            <tr>
+              <td className="p-2"></td>
+              <td className="p-2 font-semibold text-black bg-teal-50"></td>
+              <td className="p-2"></td>
+              <td className="p-2 flex justify-end bg-teal-50">
+                <button className="border border-teal-500 text-teal-500 bg-white py-0.5 px-6 rounded-full">
+                  بیشتر
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </>
   );
