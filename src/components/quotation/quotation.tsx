@@ -5,7 +5,7 @@ export default function Quotation() {
     return (
         <>
             <div className="space-y-6">
-                <span className="text-purple-700 font-bold text-lg px-10">
+                <span className="text-secondary font-bold text-lg px-10">
                     بزرگان راجب موئسسه چه می گویند؟
                 </span>
 
@@ -13,10 +13,10 @@ export default function Quotation() {
                     <img
                         src="https://via.placeholder.com/100"
                         alt="Plan"
-                        className="rounded-full object-cover size-20"
+                        className="rounded-full object-cover size-24"
                     />
                     <div className="space-y-2">
-                        <span className="text-purple-800 text-base font-bold">
+                        <span className="text-onSecondary text-base font-bold">
                             آیت الله جوادی عاملی
                         </span>
                         <p
@@ -37,7 +37,7 @@ export default function Quotation() {
 
 
                 <div className="flex justify-center">
-                    <Pagination/>
+                    <Pagination color="secondary"/>
                 </div>
             </div>
         </>

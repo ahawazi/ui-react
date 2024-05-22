@@ -5,7 +5,16 @@ import Next from "../svgs/next";
 export default function Sharer() {
   return (
     <>
-      <div className="bg-primary/20 rounded-b-10xl py-10 space-y-6">
+      <div className="bg-primary/20 rounded-b-10xl py-10 space-y-6 relative">
+
+        <div
+          style={{
+            backgroundImage: 'url(images/BG.png)',
+            backgroundSize: 'cover',
+          }}
+          className="absolute inset-0 w-full h-full rounded-b-10xl opacity-10 invert"
+        >
+        </div>
         <div className="flex justify-center items-center space-x-4 space-x-reverse">
           <div className="border border-primary text-primary flex items-center justify-center rounded-lg size-7">
             <Next />
@@ -49,12 +58,12 @@ export default function Sharer() {
             </p>
           </div>
           <div className="w-44 bg-white py-0.5 px-0.5 rounded-full self-end my-1 flex justify-end">
-            <div className="h-2 bg-primary rounded-full" 
-            style={
-              {
-                width: "50%"
+            <div className="h-2 bg-primary rounded-full"
+              style={
+                {
+                  width: "50%"
+                }
               }
-            }
             ></div>
           </div>
           <div className="text-center">

@@ -3,7 +3,7 @@ import CalendarDays from "@/components/svgs/calendarDays";
 export default function Plan() {
     return (
         <>
-            <div className="border-gray-400 border rounded-xl overflow-hidden">
+            <div className="border-onSecondary/20 border rounded-xl overflow-hidden">
                 <img
                     src="https://via.placeholder.com/300"
                     alt="Plan"
@@ -26,7 +26,7 @@ export default function Plan() {
                     <div className="flex justify-end p-2">
                         <div className="flex space-x-2 space-x-reverse items-center text-sm text-neutral-400">
                             <span>1402\8\17</span>
-                            <CalendarDays className="size-4 text-indigo-400"/>
+                            <CalendarDays className="size-4 text-secondary"/>
                         </div>
                     </div>
                 </div>
