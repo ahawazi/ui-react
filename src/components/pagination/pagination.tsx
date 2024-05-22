@@ -4,25 +4,25 @@ import Next from "../svgs/next";
 export default function Pagination() {
     return (
         <>
-            <div className="flex space-x-6 space-x-reverse text-indigo-400">
-                <div className="border border-indigo-400 rounded-lg">
+            <div className="flex space-x-6 space-x-reverse text-primary">
+                <div className="border border-primary rounded-lg">
                     <Next/>
                 </div>
-                <div className="flex items-center space-x-4 space-x-reverse">
+                <div className="flex items-center space-x-2 space-x-reverse">
                     <div
-                        className="size-2 rounded-full bg-white"
+                        className="size-2 rounded-full bg-neutral-400"
                     >
                     </div>
                     <div
-                        className="size-2 rounded-full bg-indigo-400"
+                        className="size-2 rounded-full bg-primary"
                     >
                     </div>
                     <div
-                        className="size-2 rounded-full bg-white"
+                        className="size-2 rounded-full bg-neutral-400"
                     >
                     </div>
                 </div>
-                <div className="border border-indigo-400 rounded-lg">
+                <div className="border border-primary rounded-lg">
                     <Back/>
                 </div>
             </div>

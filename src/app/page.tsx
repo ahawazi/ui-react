@@ -1,29 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import MiniBanner from "@/components/banners/mini-banner";
 import MavaredShomaItem from "@/components/items/mabared-shoma-item";
-import ArrowLeft from "@/components/svgs/arrow-left";
-import Image from "next/image";
-import Box from "@/components/elements/card/box";
 import BoxHeader from "@/components/elements/card/boxHeader";
-import ListItem from "@/components/elements/list/listItem";
 import Help from "@/components/helps/help";
 import Plan from "@/components/plans/plan";
-import Product from "@/components/Products/product";
 import HelpSample from "@/components/helps/helpSample";
-import Play from "@/components/svgs/play";
-import Download from "@/components/svgs/download";
-import Taimer from "@/components/svgs/taimer";
-import Next from "@/components/svgs/next";
-import Back from "@/components/svgs/back";
-import Location from "@/components/svgs/location";
 import EhdayeKomakNaghdiBanner from "@/components/banners/ehdaye-komamk-naghdi-banner";
-import Post from "@/components/post/post";
 import Quotation from "@/components/quotation/quotation";
 import Sharer from "@/components/sharers/sharer";
-import PlanBanner from "@/components/plans/plan-banner";
-import PlanCode from "@/components/plans/plan-code";
-import PlansVideo from "@/components/plans/plans-video";
 import Page from "@/components/layout/page";
+import Pagination from "@/components/pagination/pagination";
 
 export default function Home() {
     return (
@@ -33,32 +19,46 @@ export default function Home() {
             >
                 <div className="container mx-auto py-10">
                     <div
-                        className="grid grid-cols-1 md:grid-cols-5 gap-4 divide-x divide-indigo-400 divide-x-reverse items-center">
-                        <div className="bg-neutral-400 h-56 rounded-3xl md:col-span-3">
+                        className="grid grid-cols-1 md:grid-cols-5 gap-4 divide-x divide-primary divide-x-reverse items-center">
+                        <div className="md:col-span-3 space-y-3">
+                            <div className="h-60 rounded-3xl overflow-hidden">
+                                <div className="w-full h-full relative">
+                                    <img
+                                        src="https://via.placeholder.com/500"
+                                        alt="hero"
+                                        className="w-full h-full object-cover"
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary opacity-50">
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="flex justify-center">
+                                <Pagination />
+                            </div>
                         </div>
-                        <div className="col-span-2 space-y-2 p-4">
-                            <MiniBanner/>
-                            <MiniBanner/>
-                            <MiniBanner/>
+                        <div className="col-span-2 space-y-2 py-2 px-4 self-start">
+                            <MiniBanner />
+                            <MiniBanner />
+                            <MiniBanner />
                         </div>
                     </div>
                     <div className="h-52 w-full bg-neutral-400 my-8">
 
                     </div>
-                    <div className="max-w-xl mx-auto">
-                        <EhdayeKomakNaghdiBanner/>
+                    <div className="max-w-xl mx-auto py-7">
+                        <EhdayeKomakNaghdiBanner />
                     </div>
 
                     <div className="my-16 flex flex-wrap gap-16 justify-center">
                         {
-                            Array.from({length: 4}).map((_, index) => (
-                                <MavaredShomaItem key={index}/>
+                            Array.from({ length: 4 }).map((_, index) => (
+                                <MavaredShomaItem key={index} />
                             ))
                         }
                     </div>
                     <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-8">
-                        <HelpSample/>
-                        <Help/>
+                        <HelpSample />
+                        <Help />
                     </div>
                     <div>
                         <BoxHeader
@@ -71,14 +71,14 @@ export default function Home() {
                         <div
                             className="grid grid-cols-1 md:grid-cols-5 gap-4 divide-x divide-indigo-400 divide-x-reverse items-start p-4">
                             <div className="col-span-3 grid grid-cols-3 gap-4">
-                                <Plan/>
-                                <Plan/>
-                                <Plan/>
+                                <Plan />
+                                <Plan />
+                                <Plan />
                             </div>
                             <div className="col-span-2 space-y-2 p-4">
-                                <MiniBanner/>
-                                <MiniBanner/>
-                                <MiniBanner/>
+                                <MiniBanner />
+                                <MiniBanner />
+                                <MiniBanner />
                             </div>
                         </div>
                         <div className="flex space-x-2 space-x-reverse items-center">
@@ -103,7 +103,7 @@ export default function Home() {
                                 نذر کالا
                             </span>
                         </BoxHeader>
-                        <Sharer/>
+                        <Sharer />
                     </div>
                 </div>
             </Page>
@@ -121,7 +121,7 @@ export default function Home() {
                     }
                 }>
                 <div className="container mx-auto py-10">
-                    <Quotation/>
+                    <Quotation />
                 </div>
             </section>
         </main>

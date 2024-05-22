@@ -19,6 +19,15 @@ const config: Config = {
                 "onSecondary": "#5b46a5",
                 "onPrimary": "#effef7",
                 "surface": "#f2efff",
+            },
+            borderRadius: {
+                '4xl': "1.75rem",
+                '5xl': "2rem",
+                '6xl': "2.25rem",
+                '7xl': "2.5rem",
+                '8xl': "2.75rem",
+                '9xl': "3rem",
+                '10xl': "3.25rem",
             }
         },
     },
