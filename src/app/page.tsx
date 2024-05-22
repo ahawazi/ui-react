@@ -61,15 +61,13 @@ export default function Home() {
                         <Help />
                     </div>
                     <div>
-                        <BoxHeader
-                            bgColors="bg-indigo-400/50"
-                        >
-                            <span className="text-lg font-bold text-secondary">
+                        <BoxHeader>
+                            <span className="text-lg font-medium text-onSecondary">
                                 اخرین اخبار
                             </span>
                         </BoxHeader>
                         <div
-                            className="grid grid-cols-1 md:grid-cols-5 gap-4 divide-x divide-indigo-400 divide-x-reverse items-start p-4">
+                            className="grid grid-cols-1 md:grid-cols-5 gap-4 divide-x-reverse items-start p-4">
                             <div className="col-span-3 grid grid-cols-3 gap-4">
                                 <Plan />
                                 <Plan />
@@ -83,23 +81,23 @@ export default function Home() {
                         </div>
                         <div className="flex space-x-2 space-x-reverse items-center">
                             <hr
-                                className="grow bg-secondary/50 h-0.5"
+                                className="grow bg-onSecondary/50 h-0.5"
                             />
                             <button
-                                className="border border-secondary text-secondary px-4 py-0.5 rounded-full text-sm"
+                                className="border border-onSecondary text-onSecondary px-4 py-0.5 rounded-full text-sm"
                             >
                                 همه اخبار
                             </button>
                             <hr
-                                className="grow bg-secondary/50 h-0.5"
+                                className="grow bg-onSecondary/50 h-0.5"
                             />
                         </div>
                     </div>
                     <div className="my-12 space-y-4">
                         <BoxHeader
-                            bgColors="bg-green-400/50"
+                            bgColors="bg-green-100/50"
                         >
-                            <span className="text-lg font-bold text-green-700">
+                            <span className="text-lg font-bold text-primary">
                                 نذر کالا
                             </span>
                         </BoxHeader>
