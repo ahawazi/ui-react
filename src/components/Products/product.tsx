@@ -1,9 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
 import Location from "../svgs/location";
 
 export default function Product() {
   return (
     <>
-      <div className="border-gray-400 border-2 rounded-xl overflow-hidden">
+      <div className="bg-white border-onSecondary/20 border-2 rounded-xl overflow-hidden">
         <div className="w-full h-48">
           <img
             src="https://via.placeholder.com/150"
