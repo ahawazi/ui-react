@@ -2,11 +2,11 @@ export default function Help() {
   return (
     <>
       <div className="">
-        <div className="bg-green-500 rounded-t-lg ">
+        <div className="bg-primary rounded-t-lg ">
           <p className="text-white font-bold mr-2">آخرین کمک ها</p>
         </div>
         <div className="flex gap-7">
-          <div className="bg-white text-green-500 font-bold">
+          <div className="bg-white text-primary font-bold">
             <div className="mt-2">
               <p>کاربر علی مرادی</p>
               <p>کاربر علی مرادی</p>
@@ -19,7 +19,7 @@ export default function Help() {
             </div>
           </div>
 
-          <div className="bg-white text-green-500 font-bold">
+          <div className="bg-white text-primary font-bold">
             <div className="mt-2">
               <p>کاربر علی مرادی</p>
               <p>کاربر علی مرادی</p>
@@ -31,7 +31,7 @@ export default function Help() {
               <p>مبلغ25,000تومان</p>
             </div>
 
-            <a className="text-green-500 border-green-500 bg-white m-2 rounded-full w-24 mt-3">
+            <a className="text-primary border-primary bg-white m-2 rounded-full w-24 mt-3">
               بیشتر
             </a>
           </div>

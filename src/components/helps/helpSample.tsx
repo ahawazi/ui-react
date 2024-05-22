@@ -4,9 +4,9 @@ export default function HelpSample() {
             <img
                 src="https://placehold.co/600x400"
                 alt="logo"
-                className="size-20 rounded-full ring ring-offset-2 ring-purple-700 object-cover absolute top-14 -right-10"
+                className="size-20 rounded-full ring ring-offset-2 ring-onSecondary object-cover absolute top-14 -right-10"
             />
-            <div className="bg-purple-700 rounded-t-2xl p-2">
+            <div className="bg-onSecondary rounded-t-2xl p-2">
                 <p className="text-white font-bold">خیر نمونه هفته</p>
             </div>
             <div className="bg-purple-100 rounded-b-2xl">
@@ -22,7 +22,7 @@ export default function HelpSample() {
                 </div>
                 <div className="flex justify-end p-3">
                     <button
-                        className="border border-purple-400 text-purple-400 py-0.5 px-6 rounded-full">
+                        className="border border-onSecondary text-onSecondary py-0.5 px-6 rounded-full">
                         بیشتر
                     </button>
                 </div>
