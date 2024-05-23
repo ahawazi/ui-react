@@ -10,17 +10,17 @@ export default function PlanCode() {
           />
         </div>
 
-        <div>
-          <p>ازطریق</p>
-          <p className="font-bold text-green-400">ussdکد</p>
+        <div className="text-center">
+          <p className="text-lg font-light">ازطریق</p>
+          <p className="font-bold text-2xl text-primary">ussdکد</p>
         </div>
 
-        <div>
+        <p className="text-base font-light">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum suscipit,
           ullam quis quod ea blanditiis quia. Tempora aperiam sapiente rem
           quisquam omnis quia natus eligendi perferendis repellendus aspernatur?
           Dignissimos, iure.
-        </div>
+        </p>
       </div>
     </>
   );
