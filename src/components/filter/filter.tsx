@@ -4,6 +4,7 @@ import SityDrop from "../boxs/sity-drop";
 import RangeInput from "../rangeInput/range-input";
 import Setting from "../svgs/setting";
 import Shopping from "../svgs/shopping";
+import Sity from "../svgs/sity";
 
 export default function Filter() {
   return (
@@ -30,7 +31,7 @@ export default function Filter() {
           </div>
           <div className="flex space-x-2 space-x-reverse items-center">
             <div className="w-24 shrink-0 flex space-x-2 space-x-reverse items-center">
-              <div className="size-4 bg-neutral-400 shrink-0"></div>
+              <Sity/>
               <span className="text-gray-500">شهر</span>
             </div>
             <select className="grow border border-secondary rounded-full px-4 py-0.5">
@@ -43,7 +44,7 @@ export default function Filter() {
 
           <div className="flex space-x-2 space-x-reverse items-center">
             <div className="w-24 shrink-0 flex space-x-2 space-x-reverse items-center">
-              <div className="size-4 bg-neutral-400 shrink-0"></div>
+              <Sity/>
               <span className="text-gray-500">محصول</span>
             </div>
             <select className="grow border border-secondary rounded-full px-4 py-0.5">
@@ -55,7 +56,7 @@ export default function Filter() {
           </div>
           <div className="">
             <div className="w-24 shrink-0 flex space-x-2 space-x-reverse items-center">
-              <div className="size-4 bg-neutral-400 shrink-0"></div>
+              <Sity/>
               <span className="text-gray-500">قیمت</span>
             </div>
             <div className="py-2">
