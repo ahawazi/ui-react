@@ -18,6 +18,7 @@ import PlanCode from "@/components/plans/plan-code";
 import ArrowLeft from "@/components/svgs/arrow-left";
 import Report from "@/components/reports/report";
 import Post from "@/components/post/post";
+import About from "@/components/about/about";
 
 export default function Home() {
     return (
@@ -299,6 +300,9 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <section className="container mx-auto">
+                <About/>
+            </section>
         </main>
     );
 }
