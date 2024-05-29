@@ -1,3 +1,5 @@
+import ArrowLeft from "../svgs/arrow-left";
+
 export default function Manager() {
   return (
     <>
@@ -8,7 +10,10 @@ export default function Manager() {
           className="rounded-full"
         />
         <div>
-          <p className="text-purple-500 font-semibold">محمددستاوردی</p>
+          <div className="flex items-center space-x-4 space-x-reverse">
+            <p className="text-purple-500 font-semibold">محمددستاوردی</p>
+            <ArrowLeft className="size-3 text-primary" />
+          </div>
           <p className="font-medium">مدیر عامل</p>
         </div>
 
