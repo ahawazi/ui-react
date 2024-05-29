@@ -4,7 +4,7 @@ import Next from "../svgs/next";
 export default function Gallery() {
   return (
     <>
-      <div className="justify-items-center grid bg-purple-500">
+      <div className="justify-items-center grid bg-onSecondary">
         <div className="flex items-center space-x-4 space-x-reverse">
           <div className="size-6 text-white border border-white rounded-lg flex items-center justify-center">
             <Next />
