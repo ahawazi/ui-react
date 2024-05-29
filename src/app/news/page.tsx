@@ -7,7 +7,7 @@ export default function NewsPage() {
     return (
         <div className="space-y-8 container mx-auto p-10">
             <BoxHeader>
-                <h1 className="text-onSecondary font-bold text-lg">
+                <h1 className="text-onSecondary font-normal text-lg">
                     همه اخبار
                 </h1>
             </BoxHeader>
