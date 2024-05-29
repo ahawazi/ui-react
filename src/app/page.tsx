@@ -13,7 +13,6 @@ import Pagination from "@/components/pagination/pagination";
 import Next from "@/components/svgs/next";
 import Back from "@/components/svgs/back";
 import Product from "@/components/Products/product";
-import Software from "@/components/softwares/software";
 import PlanCode from "@/components/plans/plan-code";
 import ArrowLeft from "@/components/svgs/arrow-left";
 import Report from "@/components/reports/report";
