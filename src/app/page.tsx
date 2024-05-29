@@ -16,6 +16,8 @@ import Product from "@/components/Products/product";
 import Software from "@/components/softwares/software";
 import PlanCode from "@/components/plans/plan-code";
 import ArrowLeft from "@/components/svgs/arrow-left";
+import Report from "@/components/reports/report";
+import Post from "@/components/post/post";
 
 export default function Home() {
     return (
@@ -240,8 +242,8 @@ export default function Home() {
                         </p>
                         <div className="flex flex-wrap gap-6 justify-center">
                             {
-                                Array.from({length: 4}).map((_, index) => (
-                                    <div className="space-y-2">
+                                Array.from({length: 4}).map((key, index) => (
+                                    <div className="space-y-2" key={index}>
                                         <div>
                                             <div
                                                 className="bg-secondary size-16 rounded-full flex items-center justify-center text-center text-white">
@@ -257,13 +259,44 @@ export default function Home() {
                                 ))
                             }
                         </div>
-                        <div className="w-full h-44 bg-neutral-400">
-
-                        </div>
+                        <Report/>
                     </div>
                 </div>
                 <div>
 
+                </div>
+            </div>
+            <div className="bg-neutral-400 p-10">
+                <div className="container mx-auto ">
+                    <div>
+                        <span className="text-2xl font-bold text-white">
+                            از فضای مجازی چخبر؟
+                        </span>
+                        <div className="m-10">
+                            <div className="grid grid-cols-11 divide-x divide-white/50 divide-x-reverse">
+                                <div className="col-span-2 space-y-4 flex flex-col items-center px-4">
+                                    <div className="w-full grow">
+                                        <img
+                                            src="https://via.placeholder.com/100"
+                                            alt="logo"
+                                            className="h-full w-full object-cover rounded-2xl"
+                                        />
+                                    </div>
+                                    <Pagination/>
+                                </div>
+                                <div className="col-span-9 space-y-4 px-4">
+                                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                        <Post/>
+                                        <Post/>
+                                        <Post/>
+                                    </div>
+                                    <div className="flex justify-center">
+                                        <Pagination/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
