@@ -126,7 +126,30 @@ export default function Footer() {
 
           <hr className="text-white" />
 
-          <div className="p-5"></div>
+          <div className="p-5 flex justify-between">
+            <div className="flex gap-2">
+              <img src="https://via.placeholder.com/25" alt="facebook" />
+              <img src="https://via.placeholder.com/25" alt="twiter" />
+              <img src="https://via.placeholder.com/25" alt="telegram" />
+              <img src="https://via.placeholder.com/25" alt="instagram" />
+              <img src="https://via.placeholder.com/25" alt="aparat" />
+              <img src="https://via.placeholder.com/25" alt="itta" />
+              <img src="https://via.placeholder.com/25" alt="bale" />
+            </div>
+            <div className="flex gap-2">
+              <button className="text-onSecondary">فارسی</button>
+              <button className="text-white">العربیه</button>
+              <button className="text-white">Eng</button>
+            </div>
+            <div className="flex gap-2">
+              <img src="https://via.placeholder.com/75" alt="Footer" />
+              <img src="https://via.placeholder.com/75" alt="Footer" />
+              <img src="https://via.placeholder.com/75" alt="Footer" />
+            </div>
+          </div>
+          <div className="w-full p-2 bg-secondary text-center">
+            <span className="inline-block align-bottom text-white">تمامی حقوق این وب سایت برای موسسه حضرت خدیجه(س) محفوظ می باشد.</span>
+          </div>
         </div>
       </div>
     </>
