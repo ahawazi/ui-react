@@ -1,5 +1,6 @@
-import Gallery from "@/components/gallery/gallery";
 import Page from "@/components/layout/page";
+import NumberPagination from "@/components/pagination/numberPagination";
+import Pagination from "@/components/pagination/pagination";
 import PlanBanner from "@/components/plans/plan-banner";
 import PlansVideo from "@/components/plans/plans-video";
 import Back from "@/components/svgs/back";
@@ -129,18 +130,34 @@ export default function GalleryPage() {
           </div>
 
           <div className="pr-20 pt-10">
-          <div className="flex justify-start text-sm font-light text-onSecondary divide-x divide-x-reverse divide-onSecondary/50 from-white to-secondary/10 bg-gradient-to-l py-2 px-4 rounded-br-xl">
-            <div className="px-2 flex">
-              <span>کلمات کلیدی:</span>
-              <div className="flex divide-x divide-x-reverse divide-onSecondary/50 font-medium">
-                <p className="px-1">#سیستان</p>
-                <p className="px-1">#جهادگران</p>
+            <div className="flex justify-start text-sm font-light text-onSecondary divide-x divide-x-reverse divide-onSecondary/50 from-white to-secondary/10 bg-gradient-to-l py-2 px-4 rounded-br-xl">
+              <div className="px-2 flex">
+                <span>کلمات کلیدی:</span>
+                <div className="flex divide-x divide-x-reverse divide-onSecondary/50 font-medium">
+                  <p className="px-1">#سیستان</p>
+                  <p className="px-1">#جهادگران</p>
+                </div>
               </div>
             </div>
           </div>
-          </div>
         </div>
       </Page>
+
+      <div className="p-10">
+        <div className="text-center py-3 bg-secondary/20 rounded-tr-xl rounded-tl-xl">
+          <span className="text-onSecondary font-bold">
+            دیگر گزارش های تصویری
+          </span>
+        </div>
+        <div className="grid gap-4 py-4">
+          <PlanBanner />
+          <PlanBanner />
+          <PlanBanner />
+        </div>
+      </div>
+      <div className="flex justify-center p-4">
+        <NumberPagination/>
+      </div>
     </>
   );
 }
