@@ -1,8 +1,17 @@
 export default function Header() {
 
     return <>
-        <header className="mb-8 z-20 left-0 top-0 w-full hidden sm:block h-40 bg-primary">
-            <div className="w-full p-2 px-10">
+        <header className="mb-8 z-20 left-0 top-0 w-full hidden sm:block h-40"
+                style={
+                    {
+                        backgroundImage: "url('/images/header-bg.png')",
+                        backgroundSize: "96%",
+                        backgroundPositionX: "center",
+                        backgroundRepeat: "no-repeat",
+                    }
+                }
+        >
+            <div className="w-full p-2 px-20">
                 <div className="flex justify-end text-white items-center py-4 px-4">
                     <div className="flex space-x-1 space-x-reverse items-center text-xs px-2">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
@@ -16,10 +25,10 @@ export default function Header() {
                     </div>
                     <div className="h-8 w-0.5 bg-white"></div>
                     <div className="flex space-x-2 space-x-reverse px-2">
-                        <img src="https://placehold.co/100x100" alt="logo" className="size-6"/>
-                        <img src="https://placehold.co/100x100" alt="logo" className="size-6"/>
-                        <img src="https://placehold.co/100x100" alt="logo" className="size-6"/>
-                        <img src="https://placehold.co/100x100" alt="logo" className="size-6"/>
+                        <img src="/images/eitta.png" alt="logo" className="size-5"/>
+                        <img src="/images/eitta.png" alt="logo" className="size-5"/>
+                        <img src="/images/eitta.png" alt="logo" className="size-5"/>
+                        <img src="/images/eitta.png" alt="logo" className="size-5"/>
                         <select name="" id="" className="bg-transparent appearance-none text-center">
                             <option value="">فارسی</option>
                             <option value="">English</option>
@@ -27,7 +36,7 @@ export default function Header() {
                     </div>
                     <div className="h-8 w-0.5 bg-white"></div>
                     <div className="px-2">
-                        <img src="https://placehold.co/600x400" alt="logo" className="w-24 h-12 object-cover"/>
+                        <img src="/images/shokr.png" alt="logo" className=" h-12 object-cover"/>
                     </div>
                 </div>
                 <div className="bg-white rounded-10xl p-2 pl-12 relative">
@@ -40,7 +49,7 @@ export default function Header() {
                             <img src="/images/logo-name.png" alt="logo"
                                  className="w-40"/>
                         </div>
-                        <div className="flex items-center space-x-4 space-x-reverse grow pr-10">
+                        <div className="flex items-center space-x-4 space-x-reverse grow pr-10 text-onSecondary">
                             <a href="#">صفحه اصلی</a>
                             <a href="#">صفحه اصلی</a>
                             <a href="#">صفحه اصلی</a>
