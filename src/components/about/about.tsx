@@ -8,7 +8,7 @@ export default function About() {
             <div className="p-4">
                 <div className="space-y-4">
                     <div className="flex space-x-2 space-x-reverse justify-center items-center">
-                        <ArrowLeft className="size-4 text-secondary"/>
+                        <ArrowLeft className="size-4 text-onSecondary"/>
                         <p className="text-primary font-semibold text-3xl text-center">درباره ما</p>
                     </div>
                     <div className="flex flex-col items-center space-y-2">

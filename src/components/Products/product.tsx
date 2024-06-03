@@ -15,8 +15,8 @@ export default function Product() {
         <div className="space-y-2 p-1 flex flex-col">
           <p className="text-center font-bold p-1">کلاه حصیر دستبافت</p>
           <hr />
-          <div className="flex space-x-2 space-x-reverse justify-between items-center">
-            <a className="border-red-500 border-2 rounded-xl text-center text-red-500 px-5 py-0.5">
+          <div className="flex space-x-2 space-x-reverse justify-between items-center px-2">
+            <a className="border-red-500 border text-sm rounded-xl text-center text-red-500 px-5 py-0.5">
               خرید
             </a>
 

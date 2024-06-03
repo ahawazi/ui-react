@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import ArrowLeft from "../svgs/arrow-left";
 
-export default function EhdayeKomakNaghdiBanner() {
+export default function ApplicationBanner() {
     return <>
         <div className="bg-secondary relative text-white rounded-3xl flex mt-16 ml-1">
             <div
@@ -27,12 +27,6 @@ export default function EhdayeKomakNaghdiBanner() {
                 <button className="border border-white px-8 py-0.5 rounded-full text-sm">
                     پرداخت
                 </button>
-            </div>
-
-            <div className="absolute -top-16 -left-1 w-48 h-56">
-                <img
-                    className="w-full h-full object-cover"
-                    src="https://source.unsplash.com/random" alt="random" />
             </div>
         </div>
     </>

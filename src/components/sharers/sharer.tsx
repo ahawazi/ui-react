@@ -24,7 +24,7 @@ export default function Sharer() {
               <img
                 src="https://via.placeholder.com/125"
                 alt="Plan"
-                className="rounded-full size-30 object-cover border border-secondary"
+                className="rounded-full size-28 object-cover border border-secondary flex-1"
               />
             </div>
             <div className="h-12 w-[1px] bg-primary"></div>
@@ -40,7 +40,7 @@ export default function Sharer() {
               <img
                 src="https://via.placeholder.com/125"
                 alt="Plan"
-                className="rounded-full size-30 object-cover border border-secondary"
+                className="rounded-full size-28 object-cover border border-secondary flex-1"
               />
             </div>
           </div>

@@ -19,6 +19,7 @@ import Report from "@/components/reports/report";
 import Post from "@/components/post/post";
 import About from "@/components/about/about";
 import ServicesBox from "@/components/boxs/servicesBox";
+import ArrowRight from "@/components/svgs/arrow-right";
 
 export default function Home() {
     return (
@@ -55,6 +56,19 @@ export default function Home() {
                     <div className="my-8">
                         <ServicesBox/>
                     </div>
+                </div>
+                <section
+                    style={
+                        {
+                            backgroundImage: "url('/images/bg2.png')",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "100%",
+                            backgroundPositionY: "bottom",
+                            backgroundPositionX: "center"
+
+                        }
+                    }
+                >
                     <div className="max-w-xl mx-auto py-7">
                         <EhdayeKomakNaghdiBanner/>
                     </div>
@@ -66,78 +80,113 @@ export default function Home() {
                             ))
                         }
                     </div>
-                    <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-8">
-                        <HelpSample/>
-                        <Help/>
-                    </div>
-                    <div>
-                        <BoxHeader>
+                </section>
+            </Page>
+            <div className="container mx-auto">
+                <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <HelpSample/>
+                    <Help/>
+                </div>
+                <div>
+                    <BoxHeader>
                             <span className="text-lg font-medium text-onSecondary">
                                 اخرین اخبار
                             </span>
-                        </BoxHeader>
-                        <div
-                            className="grid grid-cols-1 md:grid-cols-5 gap-4 divide-x-reverse items-start p-4">
-                            <div className="col-span-3 grid grid-cols-3 gap-4">
-                                <Plan/>
-                                <Plan/>
-                                <Plan/>
-                            </div>
-                            <div className="col-span-2 space-y-2 p-4">
-                                <MiniBanner/>
-                                <MiniBanner/>
-                                <MiniBanner/>
-                            </div>
+                    </BoxHeader>
+                    <div
+                        className="grid grid-cols-1 md:grid-cols-5 gap-4 divide-x-reverse items-start p-4">
+                        <div className="col-span-3 grid grid-cols-3 gap-4">
+                            <Plan/>
+                            <Plan/>
+                            <Plan/>
                         </div>
-                        <div className="flex space-x-2 space-x-reverse items-center">
-                            <hr
-                                className="grow bg-onSecondary/50 h-0.5"
-                            />
-                            <button
-                                className="border border-onSecondary text-onSecondary px-4 py-0.5 rounded-full text-sm"
-                            >
-                                همه اخبار
-                            </button>
-                            <hr
-                                className="grow bg-onSecondary/50 h-0.5"
-                            />
+                        <div className="col-span-2 space-y-2 p-4">
+                            <MiniBanner/>
+                            <MiniBanner/>
+                            <MiniBanner/>
                         </div>
                     </div>
-                    <div className="my-12 space-y-4">
-                        <BoxHeader
-                            bgColors="bg-green-100/50"
+                    <div className="flex space-x-2 space-x-reverse items-center">
+                        <hr
+                            className="grow bg-onSecondary/50 h-0.5"
+                        />
+                        <button
+                            className="border border-onSecondary text-onSecondary px-4 py-0.5 rounded-full text-sm"
                         >
+                            همه اخبار
+                        </button>
+                        <hr
+                            className="grow bg-onSecondary/50 h-0.5"
+                        />
+                    </div>
+                </div>
+                <div className="my-12 space-y-4">
+                    <BoxHeader
+                        bgColors="bg-green-100/50"
+                    >
                             <span className="text-lg font-bold text-primary">
                                 نذر کالا
                             </span>
-                        </BoxHeader>
-                        <Sharer/>
-                    </div>
+                    </BoxHeader>
+                    <Sharer/>
                 </div>
-            </Page>
-
-
-            <div className="w-full h-48 bg-neutral-400">
-
             </div>
 
+
             <section
-                className="bg-cover bg-indigo-100 py-20"
+                style={
+                    {
+                        backgroundImage: "url('/images/bg2.png')",
+                        backgroundRepeat: "no-repeat",
+                        backgroundSize: "100%",
+                        backgroundPositionY: "bottom",
+                        backgroundPositionX: "center"
+
+                    }
+                }
+                className="pb-20 pt-10"
+            >
+                <div className="max-w-xl mx-auto py-7">
+                    <EhdayeKomakNaghdiBanner/>
+                </div>
+            </section>
+            <section className="h-60 w-full bg-neutral-400">
+
+            </section>
+            <section
+                className="bg-cover"
                 style={
                     {
                         backgroundImage: "url('/images/BG.png')",
                     }
                 }>
-                <div className="container mx-auto py-10">
-                    <Quotation/>
+                <div className="from-onSecondary/20 to-onSecondary/0 bg-gradient-to-t"
+                >
+
+                    <div className="container mx-auto py-10">
+                        <Quotation/>
+                    </div>
+                    <img src="/images/bg2.png" alt="" className="w-full"/>
                 </div>
             </section>
-            <div className="bg-neutral-400">
+            <div
+                className="my-20"
+                style={
+                {
+                    backgroundImage: "url('/images/Rectangle%20634%20copy%202.png')",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "100%",
+                }
+            }>
                 <div className="container mx-auto space-y-6">
-                    <div className="grid grid-cols-3 rounded-t-10xl bg-blue-500">
+                    <div className="grid grid-cols-3 rounded-t-10xl from-[#1e3cab] to-[#557bff] bg-gradient-to-r to-90% px-20">
                         <div className="flex justify-center items-center">
                             <div className="flex flex-col items-center justify-center space-y-4">
-                                <div className="bg-neutral-400 size-20"></div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                     strokeWidth={1.5} stroke="currentColor" className="size-10 text-white">
+                                    <path strokeLinecap="round" strokeLinejoin="round"
+                                          d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"/>
+                                </svg>
                                 <div>
                                     <p className="text-center text-rose-500 text-4xl">
                                         فروشگاه خیریه
@@ -146,17 +195,22 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="relative flex justify-center">
-                            <img src="https://via.placeholder.com/500" alt="store"
-                                 className="size-40 object-cover absolute -top-5"/>
+                            <img src="/images/bascket.png" alt="store"
+                                 className="h-60 absolute -top-5"/>
                         </div>
                         <div className="text-white text-left space-y-5 p-8">
-                            <p className="font-bold text-lg">
-                                با خرید کردن میشه دست به خیر شد!
-                            </p>
-                            <p className="text-sm font-light">
-                                تمامی محصولات این فروشگاه به صورت خیریه برای کمک به نیازمندان و افراد محروم از امکانات
+                            <div className='flex items-center -ml-4'>
+                                <p className="font-bold text-lg text-left grow">
+                                    با خرید کردن میشه دست به خیر شد!
+                                </p>
+                                <ArrowRight className="size-4 shrink-0"/>
+                            </div>
+                            <p className="text-xs font-light">
+                                تمامی محصولات این فروشگاه به صورت خیریه برای کمک به نیازمندان و افراد محروم از
+                                امکانات
                                 اساسی فروخته میشود.
-                                تمامی محصولات این فروشگاه به صورت خیریه برای کمک به نیازمندان و افراد محروم از امکانات
+                                تمامی محصولات این فروشگاه به صورت خیریه برای کمک به نیازمندان و افراد محروم از
+                                امکانات
                                 اساسی فروخته میشود.
                             </p>
                             <button className="text-white px-4 py-0.5  rounded-full">
@@ -170,6 +224,7 @@ export default function Home() {
                             <Next/>
                         </div>
                         <div className="flex space-x-6 space-x-reverse">
+                            <Product/>
                             <Product/>
                             <Product/>
                             <Product/>
