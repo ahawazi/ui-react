@@ -11,7 +11,7 @@ export default function SearchBox() {
           <input
             type="search"
             id="default-search"
-            className="block p-2 ps-10 text-gray-900 border border-purple-500 rounded-2xl bg-gray-50"
+            className="block p-2 ps-10 text-gray-900 border border-onSecondary rounded-2xl bg-gray-50"
             placeholder="جستجوکنید"
           />
         </div>

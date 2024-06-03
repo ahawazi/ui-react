@@ -57,14 +57,14 @@ export default function PaymentPage() {
                             </div>
                             <div className="py-4 px-2">
                                 <div className="max-w-xs mx-auto space-y-2">
-                                    <div className="space-x-2 space-x-reverse items-center text-purple-400">
-                                        <input type="radio" name="type" id="custom" className="accent-purple-400"/>
+                                    <div className="space-x-2 space-x-reverse items-center text-onSecondary ">
+                                        <input type="radio" name="type" id="custom" className="accent-onSecondary "/>
                                         <label htmlFor="custom">
                                             مبلغ دلخواه
                                         </label>
                                     </div>
-                                    <div className="space-x-2 space-x-reverse items-center text-purple-400">
-                                        <input type="radio" name="type" id="plan_1" className="accent-purple-400"/>
+                                    <div className="space-x-2 space-x-reverse items-center text-onSecondary ">
+                                        <input type="radio" name="type" id="plan_1" className="accent-onSecondary "/>
                                         <label htmlFor="plan_1">
                                             هزینه پوشش کامل زود نا بارور
                                         </label>
@@ -98,7 +98,7 @@ export default function PaymentPage() {
                             </div>
                         </div>
                         <div className="bg-green-100 py-8 space-y-6 border-t border-green-500">
-                            <div className="flex flex-col items-center text-purple-700 space-y-2">
+                            <div className="flex flex-col items-center text-onSecondary space-y-2">
                                 <span className="text-base font-medium">
                                     مبلغ نهایی:
                                 </span>

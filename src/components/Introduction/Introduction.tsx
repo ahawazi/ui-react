@@ -18,13 +18,13 @@ export default function Introduction() {
             <p className="text-white font-bold">
               بیست و پنجمین مرحله ثبت نام طرح فرزندان غدیر
             </p>
-          </div>
 
-          <div className="text-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In cum
-            tempora corporis. Officia laboriosam quisquam soluta laudantium
-            ipsam, quidem obcaecati, quibusdam distinctio voluptate atque
-            deserunt odit alias cupiditate sit. Iste.
+            <p className="text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In cum
+              tempora corporis. Officia laboriosam quisquam soluta laudantium
+              ipsam, quidem obcaecati, quibusdam distinctio voluptate atque
+              deserunt odit alias cupiditate sit. Iste.
+            </p>
           </div>
 
           <div className="flex space-x-2 space-x-reverse">
