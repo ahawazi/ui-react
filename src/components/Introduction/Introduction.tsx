@@ -28,11 +28,18 @@ export default function Introduction() {
           </div>
 
           <div className="flex space-x-2 space-x-reverse">
-            <p className="text-white font-bold">دانلود</p>
-            <Download />
-
-            <p className="text-white">| 20دقیقه</p>
-            <Taimer />
+          <div className="divide-x divide-x-reverse divide-white flex justify-end gap-2">
+            <div className="flex items-center">
+              <button className="text-base font-bold text-white">دانلود</button>
+              <Download />
+            </div>
+            <div className="flex items-center">
+              <button className="px-2 text-base font-medium text-white ">
+                20دقیقه
+              </button>
+              <Taimer />
+            </div>
+          </div>
           </div>
         </div>
       </div>
