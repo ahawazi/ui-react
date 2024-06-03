@@ -18,6 +18,7 @@ import ArrowLeft from "@/components/svgs/arrow-left";
 import Report from "@/components/reports/report";
 import Post from "@/components/post/post";
 import About from "@/components/about/about";
+import ServicesBox from "@/components/boxs/servicesBox";
 
 export default function Home() {
     return (
@@ -32,7 +33,7 @@ export default function Home() {
                             <div className="h-60 rounded-3xl overflow-hidden">
                                 <div className="w-full h-full relative">
                                     <img
-                                        src="https://via.placeholder.com/500"
+                                        src="https://source.unsplash.com/random"
                                         alt="hero"
                                         className="w-full h-full object-cover"
                                     />
@@ -51,8 +52,8 @@ export default function Home() {
                             <MiniBanner/>
                         </div>
                     </div>
-                    <div className="h-52 w-full bg-neutral-400 my-8">
-
+                    <div className="my-8">
+                        <ServicesBox/>
                     </div>
                     <div className="max-w-xl mx-auto py-7">
                         <EhdayeKomakNaghdiBanner/>
@@ -158,14 +159,14 @@ export default function Home() {
                                 تمامی محصولات این فروشگاه به صورت خیریه برای کمک به نیازمندان و افراد محروم از امکانات
                                 اساسی فروخته میشود.
                             </p>
-                            <button className="text-white px-4 py-0.5 border border-white rounded-full">
+                            <button className="text-white px-4 py-0.5  rounded-full">
                                 همه کالاها
                             </button>
                         </div>
                     </div>
                     <div className="flex space-x-8 space-x-reverse items-center justify-center">
                         <div
-                            className="size-6 text-white border border-white rounded-lg flex items-center justify-center">
+                            className="size-6 text-white  rounded-lg flex items-center justify-center">
                             <Next/>
                         </div>
                         <div className="flex space-x-6 space-x-reverse">
@@ -174,7 +175,7 @@ export default function Home() {
                             <Product/>
                         </div>
                         <div
-                            className="size-6 text-white border border-white rounded-lg flex items-center justify-center">
+                            className="size-6 text-white  rounded-lg flex items-center justify-center">
                             <Back/>
                         </div>
                     </div>
