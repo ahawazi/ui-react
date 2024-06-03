@@ -20,6 +20,7 @@ import Post from "@/components/post/post";
 import About from "@/components/about/about";
 import ServicesBox from "@/components/boxs/servicesBox";
 import ArrowRight from "@/components/svgs/arrow-right";
+import Software from "@/components/software/software";
 
 export default function Home() {
     return (
@@ -131,7 +132,10 @@ export default function Home() {
                     <Sharer/>
                 </div>
             </div>
-
+               
+            <div>
+                <Software/>
+            </div>
 
             <section
                 style={
