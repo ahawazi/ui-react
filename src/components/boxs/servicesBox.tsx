@@ -1,6 +1,6 @@
 export default function ServicesBox() {
     return (
-        <div className="flex rounded-10xl bg-primary overflow-hidden ring-4 ring-onSecondary/20">
+        <div className="hidden md:flex rounded-10xl bg-primary overflow-hidden ring-4 ring-onSecondary/20">
             <div className="flex space-x-2 space-x-reverse items-center px-10">
                 <div className="text-white font-bold">
                     <p>

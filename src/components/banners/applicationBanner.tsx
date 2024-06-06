@@ -3,7 +3,7 @@ import ArrowLeft from "../svgs/arrow-left";
 
 export default function ApplicationBanner() {
     return <>
-        <div className="bg-secondary relative text-white rounded-3xl flex mt-16 ml-1">
+        <div className="bg-secondary relative text-white rounded-3xl flex ml-1">
             <div
                 style={{
                     backgroundImage: 'url(images/BG.png)',

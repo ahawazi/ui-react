@@ -3,7 +3,7 @@ import ArrowLeft from "../svgs/arrow-left";
 
 export default function EhdayeKomakNaghdiBanner() {
     return <>
-        <div className="bg-secondary relative text-white rounded-3xl flex mt-16 ml-1">
+        <div className="bg-secondary relative text-white rounded-3xl flex ml-1 mt-16">
             <div
                 style={{
                     backgroundImage: 'url(images/BG.png)',
@@ -29,10 +29,10 @@ export default function EhdayeKomakNaghdiBanner() {
                 </button>
             </div>
 
-            <div className="absolute -top-16 -left-1 w-48 h-56">
+            <div className="hidden md:block absolute -bottom-4 -left-2">
                 <img
-                    className="w-full h-full object-cover"
-                    src="https://source.unsplash.com/random" alt="random" />
+                    className="w-full h-full object-cover -mb-24"
+                    src="/svgs/donate-mobile.svg" alt="random" />
             </div>
         </div>
     </>

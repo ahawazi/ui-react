@@ -15,32 +15,32 @@ export default function Sharer() {
           className="absolute inset-0 w-full h-full rounded-b-10xl opacity-10 invert"
         >
         </div>
-        <div className="flex justify-center items-center space-x-4 space-x-reverse">
+        <div className="flex justify-center items-center space-x-2 md:space-x-4 md:space-x-reverse space-x-reverse">
           <div className="border border-primary text-primary flex items-center justify-center rounded-lg size-7">
             <Next />
           </div>
           <div className="flex items-center">
-            <div className="px-10 flex justify-center items-center">
+            <div className="px-2 md:px-10 flex justify-center items-center shrink-0">
               <img
                 src="https://via.placeholder.com/125"
                 alt="Plan"
-                className="rounded-full size-28 object-cover border border-secondary flex-1"
+                className="rounded-full size-16 sm:size-20 shrink-0 md:size-28 object-cover border border-secondary"
               />
             </div>
             <div className="h-12 w-[1px] bg-primary"></div>
-            <div className="px-10 flex justify-center items-center">
+            <div className="px-2 md:px-10 flex justify-center items-center shrink-0">
               <img
                 src="https://via.placeholder.com/150"
                 alt="Plan"
-                className="rounded-full size-40 object-cover border-2 border-primary"
+                className="rounded-full size-20 sm:size-32 md:size-40 object-cover border-2 border-primary"
               />
             </div>
             <div className="h-12 w-[1px] bg-primary"></div>
-            <div className="px-10 flex justify-center items-center">
+            <div className="px-2 md:px-10 flex justify-center items-center shrink-0">
               <img
                 src="https://via.placeholder.com/125"
                 alt="Plan"
-                className="rounded-full size-28 object-cover border border-secondary flex-1"
+                className="rounded-full size-16 sm:size-20 shrink-0 md:size-28 object-cover border border-secondary"
               />
             </div>
           </div>

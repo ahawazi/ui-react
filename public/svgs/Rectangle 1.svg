@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="217.437" height="240.04" viewBox="0 0 217.437 240.04">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c1bfd8;
+        stroke: #fff;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="492.125" y="1257.34" width="217.437" height="240.04" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="493.125" y="1258.34" width="215.437" height="238.04" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjE1LjQzNyIgaGVpZ2h0PSIyMzguMDQiIHZpZXdCb3g9IjAgMCAyMTUuNDM3IDIzOC4wNCI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogdXJsKCNyYWRpYWwtZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJyYWRpYWwtZ3JhZGllbnQiIGN4PSIxMDcuNzE4IiBjeT0iMTE5LjAyIiByPSIxMDguNzc3IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI05hTk5hTk5hTiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEuNSIgc3RvcC1jb2xvcj0iI2I1YjFiMSIvPgogICAgPC9yYWRpYWxHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iMjE1LjQzNyIgaGVpZ2h0PSIyMzguMDQiLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" mode="overlay" in2="SourceGraphic"/>
+      <feGaussianBlur result="blur" stdDeviation="3.606" in="SourceAlpha"/>
+      <feFlood result="flood" flood-color="#181719" flood-opacity="0.2"/>
+      <feComposite result="composite-2" operator="out" in2="blur"/>
+      <feOffset result="offset" dy="1"/>
+      <feComposite result="composite-3" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-2" mode="multiply" in2="blend"/>
+    </filter>
+  </defs>
+  <g transform="translate(-492.125 -1257.34)" style="fill: #c1bfd8; filter: url(#filter)">
+    <path id="path" class="cls-1" d="M698.57,1496.36H503.123a10,10,0,0,1-10-10V1365.6a107.239,107.239,0,0,1,107.242-107.24h0.963A107.239,107.239,0,0,1,708.57,1365.6v120.76A10,10,0,0,1,698.57,1496.36Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use transform="translate(-492.125 -1257.34)" xlink:href="#path" style="stroke: #fff; filter: none; fill: none"/>
+</svg>
