@@ -13,7 +13,7 @@ export default function About() {
                     </div>
                     <div className="flex flex-col items-center space-y-2">
                         <img
-                            src="https://via.placeholder.com/300"
+                            src="/svgs/about-footer-logo.svg"
                             alt="About"
                             className="w-32 h-40"
                         />

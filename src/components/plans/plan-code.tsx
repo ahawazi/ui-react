@@ -17,7 +17,7 @@ export default function PlanCode(
                     <img
                         src={image}
                         alt="Plan"
-                        className="rounded-t-lg w-full h-80 object-cover"
+                        className="rounded-t-lg w-full h-80"
                     />
                 </div>
 
@@ -28,7 +28,7 @@ export default function PlanCode(
                     </p>
                 </div>
 
-                <p className="text-base font-light">
+                <p className="text-base font-light text-center">
                     {description}
                 </p>
             </div>

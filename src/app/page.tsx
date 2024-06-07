@@ -20,10 +20,8 @@ import Post from "@/components/post/post";
 import About from "@/components/about/about";
 import ServicesBox from "@/components/boxs/servicesBox";
 import ArrowRight from "@/components/svgs/arrow-right";
-import CalendarDays from "@/components/svgs/calendarDays";
 import ImageNewsSlider from "@/components/news/imageNewsSlider";
-import ApplicationBanner from "@/components/banners/applicationBanner";
-import Software from "@/components/software/software";
+import IranMap from "@/components/maps/iranMap";
 
 export default function Home() {
     return (
@@ -241,24 +239,25 @@ export default function Home() {
                 </div>
 
             </div>
-            <div className="my-20">
+            <div className="my-10 mb-2 md:my-20">
                 <h3 className="text-primary text-center text-3xl font-bold">
                     چطوری منم کمک کنم؟
                 </h3>
-                <div className="flex space-x-10 space-x-reverse justify-center container mx-auto mt-16">
+                <div
+                    className="flex flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10 space-x-reverse justify-center container mx-auto mt-4 md:mt-16">
                     <PlanCode
                         title="ارسال کد"
                         description="با ارسال کد یکبار مصرف"
                         image="/svgs/ussid.svg"
                     />
-                    <div className="w-[1px] h-36 bg-onSecondary/50 self-end">
+                    <div className="w-[1px] h-36 bg-onSecondary/50 self-end hidden md:block col-span-1">
                     </div>
                     <PlanCode
                         title="پرداخت آنلاین"
                         description="از طریق درگاه پرداخت مطمئن"
                         image="/svgs/account-number.svg"
                     />
-                    <div className="w-[1px] h-36 bg-onSecondary/50 self-end">
+                    <div className="w-[1px] h-36 bg-onSecondary/50 self-end hidden md:block">
                     </div>
                     <PlanCode
                         title="کارت به کارت"
@@ -280,26 +279,27 @@ export default function Home() {
                     />
                 </div>
             </div>
-            <div className="grid grid-cols-2 p-10 container mx-auto">
-                <div className="divide-y">
-                    <div className="space-y-4 py-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 p-4 md:p-10 container mx-auto">
+                <div className="divide-y md:ml-20">
+                    <div className="space-y-4 py-4 md:py-8">
                         <div className="flex items-center space-x-2 space-x-reverse">
-                            <ArrowLeft className="size-4 -mr-4"/>
+                            <ArrowLeft className="size-4 md:-mr-4"/>
                             <p className="text-primary font-bold text-3xl">
                                 گزارش مالی موسسه
                             </p>
                         </div>
                         <div className="flex flex-col space-y-2 text-onSecondary py-2">
-                            <div className="flex space-x-2  space-x-reverse items-center">
-                                <p className="text-base font-light">
+                            <div
+                                className="flex flex-col justify-start md:space-x-2 md:space-x-reverse md:items-baseline">
+                                <p className="text-3xl font-extralight">
                                     کمک های مردمی:
                                 </p>
-                                <p className="text-base font-bold">
+                                <p className="text-2xl font-bold ">
                                     230000 تومان
                                 </p>
                             </div>
                             <div className="flex items-center justify-between">
-                                <p>
+                                <p className="text-xl font-extralight">
                                     تراز مالی: مثبت+
                                 </p>
                                 <button className="border border-onSecondary px-4 py-0.5 rounded-full text-sm">
@@ -309,19 +309,19 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="py-8 space-y-4">
-                        <p className="text-base font-light text-onSecondary">
+                        <p className="text-xl font-light text-onSecondary">
                             نحوه هزینه کرد در بخش ها مختلف:
                         </p>
-                        <div className="flex flex-wrap gap-6 justify-center">
+                        <div className="flex flex-wrap gap-10 justify-center">
                             {
-                                Array.from({length: 4}).map((key, index) => (
+                                Array.from({length: 5}).map((key, index) => (
                                     <div className="space-y-2" key={index}>
                                         <div>
                                             <div
                                                 className="bg-secondary size-16 rounded-full flex items-center justify-center text-center text-white">
-                                        <span>
-                                            45%
-                                        </span>
+                                                <span>
+                                                    45%
+                                                </span>
                                             </div>
                                         </div>
                                         <p className="text-center text-sm font-medium">
@@ -331,22 +331,26 @@ export default function Home() {
                                 ))
                             }
                         </div>
-                        <Report/>
+                        <div>
+                            <div className="md:mt-20 max-w-xl mx-auto">
+                                <Report/>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div>
-
+                <div className="overflow-hidden">
+                    <IranMap/>
                 </div>
             </div>
-            <div className="bg-neutral-400 p-10">
+            <div className="bg-neutral-400 p-4 md:p-10">
                 <div className="container mx-auto ">
                     <div>
                         <span className="text-2xl font-bold text-white">
                             از فضای مجازی چخبر؟
                         </span>
-                        <div className="m-10">
-                            <div className="grid grid-cols-11 divide-x divide-white/50 divide-x-reverse">
-                                <div className="col-span-2 space-y-4 flex flex-col items-center px-4">
+                        <div className="md:m-10 m-4">
+                            <div className="grid grid-cols-11 md:divide-x divide-y md:divide-y-0 divide-white/50 md:divide-x-reverse">
+                                <div className="col-span-11 md:col-span-2 space-y-4 flex flex-col items-center py-4 md:px-4">
                                     <div className="w-full grow">
                                         <img
                                             src="https://via.placeholder.com/100"
@@ -356,13 +360,13 @@ export default function Home() {
                                     </div>
                                     <Pagination/>
                                 </div>
-                                <div className="col-span-9 space-y-4 px-4">
+                                <div className="col-span-11 md:col-span-9 space-y-4 py-4 md:px-4">
                                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                                         <Post/>
                                         <Post/>
                                         <Post/>
                                     </div>
-                                    <div className="flex justify-center">
+                                    <div className="md:flex justify-center hidden">
                                         <Pagination/>
                                     </div>
                                 </div>
