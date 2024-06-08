@@ -12,7 +12,7 @@ export default function Page(
     return <div
         className={
             classNames(
-                "bg-cover",
+                "bg-cover mt-20",
                 className,
             )}
         style={

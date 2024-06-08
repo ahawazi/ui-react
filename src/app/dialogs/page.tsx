@@ -23,7 +23,9 @@ export default function NewsPage() {
                         {
                             Array.from(Array(5).keys()).map(value => {
                                 return <>
-                                    <IntroductionVideo/>
+                                    <IntroductionVideo
+                                        active={value == 2}
+                                    />
                                 </>
                             })
                         }
@@ -45,8 +47,8 @@ export default function NewsPage() {
                                     </li>
                                 </ul>
                                 <div className="flex">
-                                    <ArrowLeft className="shrink-0 size-4"/>
-                                    <p>
+                                    <ArrowLeft className="shrink-0 size-3 text-primary mt-2 ml-2"/>
+                                    <p className="font-light">
                                         م شسمیب کسبمنک سشنمیب شکمسبن
                                         م شسمیب کسبمنک سشنمیب شکمسبن
                                         م شسمیب کسبمنک سشنمیب شکمسبن

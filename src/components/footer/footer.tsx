@@ -6,52 +6,52 @@ export default function Footer() {
       <div className="bg-primary">
         <div className="flex flex-col items-center space-y-2">
           <img
-            src="https://via.placeholder.com/300"
-            alt="About"
-            className="w-32 h-40"
+              src="/images/logo.png"
+              alt="About"
+              className="w-32"
           />
-          <img src="/images/logo-name.png" alt="About" className="h-12" />
+          <img src="/images/logo-name.png" alt="About" className="h-12"/>
         </div>
 
-        <div className="">
+        <div className="container mx-auto">
           <div className="grid grid-cols-5 mt-10 justify-items-center">
             <div className="">
-              <img src="https://via.placeholder.com/150x175" alt="Footer" />
+              <img src="https://via.placeholder.com/150x175" alt="Footer"/>
               <span className="text-white font-light flex justify-center px-6 py-6">
                 لوح افتخار برترین
               </span>
             </div>
 
             <div className="">
-              <img src="https://via.placeholder.com/150x175" alt="Footer" />
+              <img src="https://via.placeholder.com/150x175" alt="Footer"/>
               <span className="text-white font-light flex justify-center px-6 py-6">
                 لوح افتخار برترین
               </span>
             </div>
 
             <div className="">
-              <img src="https://via.placeholder.com/150x175" alt="Footer" />
+              <img src="https://via.placeholder.com/150x175" alt="Footer"/>
               <span className="text-white font-light flex justify-center px-6 py-6">
                 لوح افتخار برترین
               </span>
             </div>
 
             <div className="">
-              <img src="https://via.placeholder.com/150x175" alt="Footer" />
+              <img src="https://via.placeholder.com/150x175" alt="Footer"/>
               <span className="text-white font-light flex justify-center px-6 py-6">
                 لوح افتخار برترین
               </span>
             </div>
 
             <div className="">
-              <img src="https://via.placeholder.com/150x175" alt="Footer" />
+              <img src="https://via.placeholder.com/150x175" alt="Footer"/>
               <span className="text-white font-light flex justify-center px-6 py-6">
                 لوح افتخار برترین
               </span>
             </div>
           </div>
 
-          <hr className="text-white" />
+          <hr className="text-white"/>
 
           <div className="grid grid-cols-5 p-10 justify-items-center">
             <div className="grid grid-rows-7 justify-items-start">
@@ -124,17 +124,17 @@ export default function Footer() {
             </div>
           </div>
 
-          <hr className="text-white" />
+          <hr className="text-white"/>
 
-          <div className="p-5 flex justify-between">
+          <div className="p-5 flex justify-between items-center">
             <div className="flex gap-2">
-              <img src="https://via.placeholder.com/25" alt="facebook" />
-              <img src="https://via.placeholder.com/25" alt="twiter" />
-              <img src="https://via.placeholder.com/25" alt="telegram" />
-              <img src="https://via.placeholder.com/25" alt="instagram" />
-              <img src="https://via.placeholder.com/25" alt="aparat" />
-              <img src="https://via.placeholder.com/25" alt="itta" />
-              <img src="https://via.placeholder.com/25" alt="bale" />
+              <img src="https://via.placeholder.com/25" className="size-8" alt="facebook"/>
+              <img src="https://via.placeholder.com/25" className="size-8" alt="twiter"/>
+              <img src="https://via.placeholder.com/25" className="size-8" alt="telegram"/>
+              <img src="https://via.placeholder.com/25" className="size-8" alt="instagram"/>
+              <img src="https://via.placeholder.com/25" className="size-8" alt="aparat"/>
+              <img src="https://via.placeholder.com/25" className="size-8" alt="itta"/>
+              <img src="https://via.placeholder.com/25" className="size-8" alt="bale"/>
             </div>
             <div className="flex gap-2">
               <button className="text-onSecondary">فارسی</button>
@@ -142,14 +142,14 @@ export default function Footer() {
               <button className="text-white">Eng</button>
             </div>
             <div className="flex gap-2">
-              <img src="https://via.placeholder.com/75" alt="Footer" />
-              <img src="https://via.placeholder.com/75" alt="Footer" />
-              <img src="https://via.placeholder.com/75" alt="Footer" />
+              <img src="https://via.placeholder.com/75" className="size-12" alt="Footer"/>
+              <img src="https://via.placeholder.com/75" className="size-12" alt="Footer"/>
+              <img src="https://via.placeholder.com/75" className="size-12" alt="Footer"/>
             </div>
           </div>
-          <div className="w-full p-2 bg-secondary text-center">
-            <span className="inline-block align-bottom text-white">تمامی حقوق این وب سایت برای موسسه حضرت خدیجه(س) محفوظ می باشد.</span>
-          </div>
+        </div>
+        <div className="w-full p-2 bg-secondary text-center">
+          <span className="inline-block align-bottom text-white">تمامی حقوق این وب سایت برای موسسه حضرت خدیجه(س) محفوظ می باشد.</span>
         </div>
       </div>
     </>

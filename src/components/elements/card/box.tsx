@@ -11,7 +11,7 @@ export default function Box(
         }
 ) {
     return <div className={classNames(
-        "border-2 border-indigo-400/20 rounded-3xl p-2",
+        "border-2 border-surface rounded-3xl p-2",
         className
     )}>
         {children}
